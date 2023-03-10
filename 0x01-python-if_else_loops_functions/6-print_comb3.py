@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-str1 = "Holberton"
-str2 = "School"
-str1 += " " + str2
-print("Welcome to {}!".format(str1))
+for num in range(0, 90):
+    if num % 10 > num / 10:
+        if num != 89:
+            print("{:02d}, ".format(num), end='')
+        else:
+            print("{:02d}".format(num))
