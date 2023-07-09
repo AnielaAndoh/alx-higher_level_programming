@@ -1,2 +1,2 @@
--- Lists all tables of a database.
-SHOW TABLES;
+-- List all tables in mysql
+SHOW TABLES
